@@ -1,0 +1,190 @@
+.a {
+    height: 100vh;
+    display: flex;
+}
+
+.about-me {
+    font-size: 70px;
+    font-weight: 600;
+    writing-mode: vertical-lr;
+    padding-right: 10%;
+}
+
+.a-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.card {
+    width: 90%;
+    max-width: 440px;
+    color: #fff;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter:blur(5px);
+}
+
+.card h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.card p {
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 330px;
+}
+
+.links button{
+    background: transparent;
+    border: none !important;
+}
+
+.card .links svg {
+    margin: 10px 5px;
+}
+  
+#hover-path:hover {
+    fill: greenyellow;
+}
+
+.parallax-effect-glare-scale {
+    transform-style: preserve-3d;
+}
+
+.parallax-effect-glare-scale .inner-element {
+    transform: translateZ(60px);
+    transform-style: preserve-3d;
+}
+
+.stage-cube-cont {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.cubespinner {
+    animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    margin-left: 120px;
+    position: absolute;
+    top: 35%;
+}
+
+.cubespinner div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background: rgba(255,255,255,0.4);
+    font-style: 100px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0px lightyellow;
+}
+
+.cubespinner .face1{
+    transform: translateZ(100px);
+}
+
+.cubespinner .face2{
+    transform: rotateY(90deg) translateZ(100px);
+}
+
+.cubespinner .face3{
+    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+}
+
+.cubespinner .face4{
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+}
+
+.cubespinner .face5{
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(180px);
+}
+
+.cubespinner .face5{
+    transform: rotateY(-90deg) translateZ(100px);
+}
+
+@keyframes spincube {
+    from,
+    to {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    16% {
+        transform: rotateY(-90deg);
+    }
+    33% {
+        transform: rotateY(-90deg) rotateZ(90deg);
+    }
+    55% {
+        transform: rotateY(-180deg) rotateZ(90deg);
+    }
+    66% {
+        transform: rotateY(-270deg) rotateZ(90deg);
+    }
+    83% {
+        transform: rotateY(-90deg)
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .a {
+        width: 225px;
+        flex-direction: column;
+    }
+
+    .about-me {
+        display: none;
+    }
+
+    .card img {
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .card h2 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+    
+    .card p {
+        font-size: 10px;
+    }
+
+    .card {
+        max-width: 150px;
+    }
+
+    .cubespinner {
+        margin-left: 10px;
+        position: absolute;
+    }
+}
