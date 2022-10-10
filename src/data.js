@@ -11,7 +11,7 @@ export const project = [
     {
         id: 2,
         img: p2,
-        link: "https://github.com/faishalraihan/Website-Rekrutasi-Asprak"
+        link: "https://x4d0.github.io/Website-Rekrutasi-Asprak"
     },
     {
         id: 3,
