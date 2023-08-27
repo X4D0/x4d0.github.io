@@ -65,7 +65,7 @@ const Projects = () => {
             img={item.img}
             link={item.link}
             desc={item.desc}
-            tools={item.tools}
+            tools={item.tools.join(", ")}
           />
         ))}
       </div>
