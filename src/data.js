@@ -2,6 +2,7 @@ import p1 from "./img/Project1.png";
 import p2 from "./img/Project2.png";
 import p3 from "./img/Project3.png";
 import p4 from "./img/Project4.png";
+import p5 from "./img/Project5.jpg";
 
 export const project = [
   {
@@ -31,5 +32,12 @@ export const project = [
     link: "https://x4d0.github.io/balanjaan",
     desc: "A Website to write down your Grocery List.",
     tools: ["HTML", "CSS", "ReactJS"],
+  },
+  {
+    id: 5,
+    img: p5,
+    link: "https://x4d0.github.io/AdzanToday",
+    desc: "Indonesia Adzan Time.",
+    tools: ["HTML", "CSS", "ReactJS", "Axios (API)", "MaterialUI"],
   },
 ];
