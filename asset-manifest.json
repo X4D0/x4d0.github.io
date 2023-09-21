@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4d406f04.css",
-    "main.js": "/static/js/main.0b93ac84.js",
+    "main.js": "/static/js/main.890d1648.js",
     "static/media/Ray Avatar.glb": "/static/media/Ray Avatar.58db5c88e648fef595cd.glb",
     "static/media/profile.png": "/static/media/profile.169fe03540d8290bc6ec.png",
     "static/media/Project1.png": "/static/media/Project1.32bc7cadcee1b051b538.png",
@@ -10,12 +10,13 @@
     "static/media/logo_inti.png": "/static/media/logo_inti.ef94318bbfdce656f55f.png",
     "static/media/logo_telkom.png": "/static/media/logo_telkom.4cc5fef044caaa05e1f1.png",
     "static/media/Project4.png": "/static/media/Project4.3169d78e15edf473964b.png",
+    "static/media/Project5.jpg": "/static/media/Project5.f9ad9082d4d23f1dbf2c.jpg",
     "index.html": "/index.html",
     "main.4d406f04.css.map": "/static/css/main.4d406f04.css.map",
-    "main.0b93ac84.js.map": "/static/js/main.0b93ac84.js.map"
+    "main.890d1648.js.map": "/static/js/main.890d1648.js.map"
   },
   "entrypoints": [
     "static/css/main.4d406f04.css",
-    "static/js/main.0b93ac84.js"
+    "static/js/main.890d1648.js"
   ]
 }
